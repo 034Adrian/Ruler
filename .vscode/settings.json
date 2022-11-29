@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "RulerDb/localdb/localdb.sqlproj",
+        "RulerDb/RazorPagesRuler/RazorPagesRuler.sqlproj"
+    ]
+}
