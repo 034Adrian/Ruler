@@ -22,3 +22,13 @@
 
  * `dotnet ef migrations add CreateIdentitySchema`
  * `dotnet ef database update`
+
+ * agregar `<partial name="_LoginPartial" />` en Pages/Shared/__Layout.cshtml
+
+ creacion y personalizacion de la interfas de registro de usuario
+ * `dotnet aspnet-codegenerator identity --dbContext RazorPagesRulerAuth --files "Account.Manage.EnableAuthenticator;Account.Manage.Index;Account.Register;Account.ConfirmEmail" --userClass RazorPagesRulerUser --force`
+
+ el siguiente comando desde la raíz del proyecto para ver los valores válidos de la opción --files:
+ * `dotnet aspnet-codegenerator identity --listFiles`
+
+ 

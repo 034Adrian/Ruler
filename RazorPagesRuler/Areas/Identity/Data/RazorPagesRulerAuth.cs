@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using RazorPagesRuler.Areas.Identity.Data;
 
 namespace RazorPagesRuler.Areas.Identity.Data;
 
-public class RazorPagesRulerAuth : IdentityDbContext<IdentityUser>
+public class RazorPagesRulerAuth : IdentityDbContext<RazorPagesRulerUser>
 {
     public RazorPagesRulerAuth(DbContextOptions<RazorPagesRulerAuth> options)
         : base(options)
